@@ -209,12 +209,12 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.ARBITRUM_SEPOLIA]: new Token(ChainId.ARBITRUM_SEPOLIA, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.ARBITRUM_SEPOLIA]: new Token(ChainId.ARBITRUM_SEPOLIA, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.BASE]: new Token(ChainId.BASE, '0x4200000000000000000000000000000000000006', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.BASE_SEPOLIA]: new Token(ChainId.BASE_SEPOLIA, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.BSC]: new Token(ChainId.BSC, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.BSC_TESTNET]: new Token(ChainId.BSC_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BASE_SEPOLIA]: new Token(ChainId.BASE_SEPOLIA, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BSC]: new Token(ChainId.BSC, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BSC_TESTNET]: new Token(ChainId.BSC_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.FRAX_TESTNET]: new Token(
     ChainId.FRAX_TESTNET,
     '0x4200000000000000000000000000000000000006',
@@ -222,13 +222,13 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.FUJI]: new Token(ChainId.FUJI, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.HEDERA]: new Token(ChainId.HEDERA, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.HEDERA_TESTNET]: new Token(ChainId.HEDERA_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.HOLESKY]: new Token(ChainId.HOLESKY, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.KAIA]: new Token(ChainId.KAIA, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.KAIROS]: new Token(ChainId.KAIROS, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.METIS_TESTNET]:new Token(ChainId.METIS_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.FUJI]: new Token(ChainId.FUJI, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.HEDERA]: new Token(ChainId.HEDERA, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.HEDERA_TESTNET]: new Token(ChainId.HEDERA_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.HOLESKY]: new Token(ChainId.HOLESKY, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.KAIA]: new Token(ChainId.KAIA, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.KAIROS]: new Token(ChainId.KAIROS, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.METIS_TESTNET]:new Token(ChainId.METIS_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MODE]: new Token(ChainId.MODE, '0x4200000000000000000000000000000000000006', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MODE_TESTNET]: new Token(
     ChainId.MODE_TESTNET,
@@ -237,8 +237,8 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.OKX]: new Token(ChainId.OKX, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.OPBNB_TESTNET]: new Token(ChainId.OPBNB_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.OKX]: new Token(ChainId.OKX, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.OPBNB_TESTNET]: new Token(ChainId.OPBNB_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.OPTIMISM]: new Token(
     ChainId.OPTIMISM,
     '0x4200000000000000000000000000000000000006',
@@ -260,8 +260,8 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.SEPOLIA]: new Token(ChainId.SEPOLIA, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.SHAPE]: new Token(ChainId.SHAPE, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.SEPOLIA]: new Token(ChainId.SEPOLIA, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.SHAPE]: new Token(ChainId.SHAPE, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.SHAPE_TESTNET]: new Token(
     ChainId.SHAPE_TESTNET,
     '0x4200000000000000000000000000000000000006',
@@ -269,8 +269,8 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId in ChainId]: Token } = {
     'WETH',
     'Wrapped Ether'
   ),
-  [ChainId.SONEIUM_TESTNET]: new Token(ChainId.SONEIUM_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.UNICHAIN_TESTNET]: new Token(ChainId.UNICHAIN_TESTNET, '', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.SONEIUM_TESTNET]: new Token(ChainId.SONEIUM_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.UNICHAIN_TESTNET]: new Token(ChainId.UNICHAIN_TESTNET, '0xEE0A7E2100F4b98f549230E0e843041A96f018a9', 18, 'WETH', 'Wrapped Ether'),
 };
 
 export class ExtendedEther extends Ether {
