@@ -150,12 +150,14 @@ export class V3SubgraphProvider implements IV3SubgraphProvider {
       {
         retries: this.retries,
         onRetry: (err, retry) => {
+          if (err instanceof Error) {
           if (this.rollback && blockNumber && _.includes(err.message, 'indexed up to')) {
             blockNumber = blockNumber - 10;
             log.info(`Detected subgraph indexing error. Rolled back block number to: ${blockNumber}`);
           }
           pools = [];
           log.info({ err }, `Failed to get pools from subgraph. Retry attempt: ${retry}`);
+          }
         },
       }
     );
